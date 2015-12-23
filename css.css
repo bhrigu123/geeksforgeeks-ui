@@ -1,0 +1,17 @@
+body{
+    line-height:1.6 !important;
+    font-size:18px !important;
+    color:#444 !important;
+    padding:0 10px !important;
+}
+h1,h2,h3{
+    line-height:1.2
+}
+#secondary {
+    display: none;
+}
+#primary {
+    float: none;
+    margin: 0 auto !important;
+    width: 80% !important;
+}

@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Make GeeksForGeeks better",
+  "description": "Enhances the UI of GeeksForGeeks portal",
+  "version": "1.0",
+
+  "icons": {
+    "48": "gfg48.png"
+   },
+
+  "permissions": [
+    "http://*.geeksforgeeks.org/*",
+    "https://*.geeksforgeeks.org/*"
+  ],
+  "content_scripts": [
+      {
+        "matches": ["*://*.geeksforgeeks.org/*"],
+        "css": ["css.css"],
+        "js": ["content_script.js"]
+      }
+    ],
+  "browser_action": {
+    "default_title": "Enhance GeeksForGeeks",
+    "default_icon": "gfg48.png",
+    "default_popup": "popup.html"
+  }
+}
