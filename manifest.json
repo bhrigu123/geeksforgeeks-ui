@@ -5,7 +5,7 @@
   "version": "1.0",
 
   "icons": {
-    "48": "gfg48.png"
+    "48": "icons/gfg48.png"
    },
 
   "permissions": [
@@ -21,7 +21,7 @@
     ],
   "browser_action": {
     "default_title": "Enhance GeeksForGeeks",
-    "default_icon": "gfg48.png",
+    "default_icon": "icons/gfg48.png",
     "default_popup": "popup.html"
   }
 }
